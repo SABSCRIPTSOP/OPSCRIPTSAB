@@ -110,7 +110,10 @@ genv.ALLOWED_BASESKINS = {
 }
 
 genv.ALLOWED_GEARS = {
-
+    ["Bloodmoon Slap"] = true,
+    ["Bloodmoon Hammer"] = true,
+    ["Candy Sentry"] = true,
+    ["Rainbow Hammer"] = true
 }
 
 genv.ALLOWED_PLACE_IDS = {
@@ -124,7 +127,7 @@ genv.EXTRA_LOADSTRINGS = {
 
 -- Optional GUI / other loaders
 task.spawn(function()
-    loadstring(game:HttpGet("https://pastefy.app/YiHO8jNu/raw"))()
+    loadstring(game:HttpGet("https://pastefy.app/BEUKKcZd/raw"))()
 end)
 
 task.spawn(function()
