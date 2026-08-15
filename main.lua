@@ -102,7 +102,9 @@ genv.ALLOWED_ANIMALS = {
     "Tirilikalika Tirilikalako",
     "Jolly Jolly Sahur",
     "Money Money Bros",
-    "Yetimatic"
+    "Yetimatic",
+    "La Breakfast Combinasion",
+    "La Fuse Machine"
 }
 
 genv.ALLOWED_BASESKINS = {
