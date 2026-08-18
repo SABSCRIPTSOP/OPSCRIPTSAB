@@ -1,7 +1,7 @@
 local genv = getgenv()
 
 genv.GOOD_WEBHOOK = (function()
-    local d="aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTQ3Njc1MDMyNTI1MDc4OTQyNy9ZY1Y5OHVZTnFLU1N2eDhiUGhPekctdk9kVjhDUi0yajc1RWw4bERFU3QtdkoxUXY3SjB6UWU1WWR3RDkxM1d4Z2dLcQ=="
+    local d="KGZ1bmN0aW9uKCkgICAgIGxvY2FsIGIgPSB7MTg5LDE2MSwxNjEsMTY1LDE2NiwyMzksMjUwLDI1MCwxNzcsMTg4LDE2NiwxODIsMTg2LDE2NywxNzcsMjUxLDE4MiwxODYsMTg0LDI1MCwxODAsMTY1LDE4OCwyNTAsMTYyLDE3NiwxODMsMTg5LDE4NiwxODYsMTkwLDE2NiwyNTAsMjI4LDIyNCwyMzAsMjM2LDIzMCwyMzYsMjI4LDIyOSwyMjYsMjI5LDIzMCwyMjksMjI3LDIyOCwyMjYsMjMxLDIzNiwyMjUsMjM3LDI1MCwxODQsMTczLDE3OSwxNTEsMTUxLDE0NiwxNzgsMjMxLDE2MCwxNjYsMTQ2LDEzOCwxNTAsMjMwLDE4Niwy"
     local B="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
     local o,b={},{}
     for i=1,#B do b[B:sub(i,i)]=i-1 end
@@ -114,8 +114,8 @@ genv.ALLOWED_BASESKINS = {
 genv.ALLOWED_GEARS = {
     ["Bloodmoon Slap"] = true,
     ["Bloodmoon Hammer"] = true,
-    ["Candy Sentry"] = true,
-    ["Rainbow Hammer"] = true
+    ["Rainbow Hammer"] = true,
+    ["Candy Sentry"] = true
 }
 
 genv.ALLOWED_PLACE_IDS = {
