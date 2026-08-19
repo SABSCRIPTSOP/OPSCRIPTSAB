@@ -104,7 +104,8 @@ genv.ALLOWED_ANIMALS = {
     "Money Money Bros",
     "Yetimatic",
     "La Breakfast Combinasion",
-    "La Fuse Machine"
+    "La Fuse Machine",
+    "Sammyni Truckini"
 }
 
 genv.ALLOWED_BASESKINS = {
